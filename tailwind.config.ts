@@ -16,6 +16,9 @@ const config: Config = {
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],
       },
+      backgroundColor: {
+        'vs-dark': '#1e1e1e'
+      }
     },
   },
   plugins: [],

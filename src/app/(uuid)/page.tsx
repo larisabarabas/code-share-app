@@ -1,20 +1,8 @@
 import Image from "next/image";
-import { account, ID } from "../../appwrite";
+
 import EditorIDE from "@/components/ui/EditorIDE";
 
-export default function Home() {
-  // const promise = account.createAnonymousSession();
-  // const session = account.getSession("current");
-  // console.log("SESSION:", session);
-
-  // promise.then(
-  //   function (response) {
-  //     console.log(response); // Success
-  //   },
-  //   function (error) {
-  //     console.log(error); // Failure
-  //   }
-  // );
+export default function Page() {
 
   return (
     <main
